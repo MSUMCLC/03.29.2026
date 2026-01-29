@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .container {
+        max-width: 800px;
+        margin: auto;
+        color: #000;
+        padding: 0 12px;
+    }
+
+    .svg-wrapper {
+        text-align: center;
+        margin: -6px 0 6px 0;
+    }
+
+    .svg-wrapper img {
+        display: inline-block;
+    }
+
+    .last-page-footer {
+        font-family: Verdana, sans-serif;
+        font-size: 9pt;
+        color: #283776;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 1.4;
+    }
+
+    /* Superscript bold verse numbers (kept for future use, unused now) */
+    .verse-num {
+        font-weight: bold;
+        font-size: 0.65em;
+        vertical-align: super;
+        line-height: 0;
+    }
+
+    /* Print button styling */
+    .print-btn {
+        font-size: 10pt;
+        padding: 4px 10px;
+        border: 1px solid #283776;
+        background: #fff;
+        color: #283776;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 10px 0 12px 0;
+    }
+
+    .print-btn:hover {
+        background: #f0f0f0;
+    }
+
+    /* PRINT‑ONLY FIXES */
+    @media print {
+
+        @page {
+            margin-bottom: 0.3in;
+        }
+
+        /* Hide print button */
+        .print-btn {
+            display: none;
+        }
+
+        /* Manual page-break class (use when needed) */
+        .page-break-after {
+            page-break-after: always;
+            break-after: page;
+        }
+
+        .last-page-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 4pt 0;
+            text-align: center;
+            background: none;
+
+            /* Prevent Chrome/Edge from dropping the footer */
+            z-index: 9999;
+            transform: translateZ(0);
+        }
+
+        body {
+            counter-reset: page;
+            overflow: visible !important;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="svg-wrapper">
+<img src="https://res.cloudinary.com/dsaksgdqw/image/upload/v1769352060/MStar_logo_vyyg6p.png"
+     alt="Morning Star Logo"
+     width="90"
+     height="91"
+     style="display: inline-block;">
+
+</div>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    Morning Star Las Cruces
+</p>
+
+<p style="text-align: center; margin: 0 0 5px 0; font-size: clamp(1.2rem, 5vw, 14pt); font-weight: bold; line-height: 1.0; letter-spacing: 0.03em;">
+    2026 Discussion Questions
+</p>
+
+<button class="print-btn" onclick="window.print()">Print</button>
+
+<p style="margin: 6pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    March 29, 2026 (Palm Sunday)
+</p>
+
+<p style="margin: 0pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Series: Good Grief: Where Hurt and Holiness Collide
+</p>
+
+<p style="margin: 0pt 0 0pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Title: Acceptance
+</p>
+
+<p style="margin: 0 0 6pt 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.0;">
+    Text: Luke 23:44-49
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    1. When something doesn't go as planned, do you tend to laugh it off, grumble, take a deep breath, or something else?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    2. Think of a small disappointment you've experienced recently. What helped you move through it or accept it?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    3. What stood out to you in the message titled Good Grief: Acceptance? Did an idea, image or story help you think differently about accepting hard realities?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    4. Read Luke 23:44-49. What details catch your attention: the darkness, Jesus' words, the crowd's reaction? What do you notice about how Jesus faces what's coming?
+</p>
+
+            <!--  Use this ––  class="page-break-after" –– when you want a question to be the last one on a page for blank space below. -->
+<p class="page-break-after" style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    5. The text says the centurion and others respond with awe at Jesus' death. What do you imagine they saw or felt that led to that response?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    6. Acceptance doesn't mean resignation. How do you experience the difference between accepting a difficult reality and giving up?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    7. Read Luke 19:28-40. When Jesus enters Jerusalem, the crowd shouts and praises, and he responds, "If they keep quiet, the stones will cry out." How might these words help us trust God's purposes when things don't fully make sense to us or others?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    8. Read Romans 8:28-30. How might these verses speak to the idea that God is at work in ways beyond our understanding, even in grief or suffering?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    9. Where in your life do you sense God calling you to face a hard reality with honesty and openness rather than avoidance? How could you take one small step toward that acceptance?
+</p>
+
+<p style="margin: 6pt 0 1in 0; font-size: clamp(1.1rem, 4.5vw, 12pt); font-family: Georgia, serif; line-height: 1.15;">
+    10. How might your group pray for you as the journey to the cross continues this week?
+</p>
+
+</div>
+
+<div class="last-page-footer">
+Mission and Vision of Morning Star: To point people to the grace of God found in Jesus<br>
+through inspirational worship, radical inclusion and the alleviation of suffering.
+</div>
+
+</body>
+</html>
